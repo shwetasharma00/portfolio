@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN for social icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo"> Shweta <span>Sharma</span></a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#project-heading">Project</a>
+            <a href="#Service-section">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="images/profile.png" alt="">
+        </div>
+        <div class="home-content">
+            <h1>It's <span>Shweta</span></h1>
+            <h3 class="text-animation">
+                I'm a <span></span>
+            </h3>
+            <p>Hi, I'm Shweta Sharma! A self-taught graphic designer & web developer with a passion for creating stunning visuals and user-friendly websites. 🚀✨ I’ve honed my skills in UI/UX design, web development, web design, and video editing, blending creativity with functionality. Always eager to learn and innovate, I strive to bring ideas to life through design and code. Let's create something amazing together! 🎭📱💡</p>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@codewithshwetaa"><i class='bx bxl-youtube'></i></a>
+                <a href="https://www.linkedin.com/in/shweta-sharma-6a3396352/"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="#contact" class="btn">CONTACT </a>
+        </div>
+    </section>
+
+    
+<section id="about">
+    <div class="container">
+        <div class="about-col-1">
+            <img src="images/profile.png" alt="Profile Image">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About</h1>
+            <h3>Hey everyone, it's me! <br>A passionate UI/UX designer, front-end developer, Graphic designer <br>
+                 , web designer and video editor. I love creating visually appealing and functional digital experiences.</h3>
+            
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                <p class="tab-links" onclick="openTab('Education')">Education</p>
+
+            </div>
+            
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                    <li><span>Web Designing</span><br>Creating engaging web layouts</li>
+                    <li><span>App Designing</span><br>Designing user-friendly applications</li>
+                </ul>
+            </div>
+            
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Graphic Design</span><br>Created visual content for Inamigos Foundation for their social media, print, and online campaigns, ensuring brand consistency across platforms. Assisted in designing graphics and layouts to communicate the foundation’s mission and support outreach efforts.</li>
+                </ul>
+            </div>
+            
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>Certification</span><br>Graphic Designing <br> Front-end development
+                    <br>Video editing</li>
+                    
+                </ul>
+            </div>
+            
+            
+        </div>
+    </div>
+    <section id="project-heading">
+        <span>Let's See My Work</span>
+        <h3>My Projects</h3>
+   
+<ul class="project-filter">
+    <li class="list project-filter-active" data-filter="all">All</li>
+    <li class="list" data-filter="front-end">front-end projects</li>
+    <li class="list" data-filter="graphics">Graphic design</li>
+    
+
+</ul>
+<!--1-->
+<div class="project-grid">
+    <!-----1----->
+<a href="https://shwetasharma00.github.io/draft/" class="project-box front-end">
+    <img src="images/front-end.jpg" alt="work">
+</a>
+   
+        <!-----2----->
+<a href="https://advertismentposter.my.canva.site/" class="project-box graphics">
+    <img src="images/advertisment poster.png" alt="work">
+</a>
+    <!-----3----->
+    <a href="https://advertismentposter.my.canva.site/branding" class="project-box graphics">
+        <img src="images/branding poster.png" alt="work">
+    </a>
+        <!-----4----->
+<a href="images/random poster.pdf" class="project-box graphics">
+    <img src="images/random poster.png" alt="work">
+</a>
+    <!-----5----->
+    <a href="images/weeding card.pdf" class="project-box graphics">
+        <img src="images/weeding card.png" alt="work">
+    </a>
+</div>
+
+<section>
+    <h1 class="heading">My <span>Services</span></h1>
+    <div class="services-container">
+        <div class="service-box">
+            <img src="images/graphic.png" alt="Service 1">
+            <h3>Service 1</h3>
+            <p>Transform your ideas into stunning visuals with my professional graphic design services.</p>
+            <ul>
+                <li>Logo Design:</li>
+                <li>Brand Identity:</li>
+                <li>Social Media Graphics:</li>
+                <li>Packaging Design</li>
+                <li>Marketing Materials:</li>
+            </ul>
+            <a href="#contact" class="read-more">Contact</a>
+        </div>
+        <div class="service-box">
+            <img src="images/video editing.png" alt="Service 2">
+            <h3>Service 2</h3>
+            <p>Bring your footage to life with my professional video editing services. Whether you need promotional videos, YouTube content, or cinematic event highlights, I will craft videos that deliver your message with impact and creativity.</p>
+            <ul>
+                <li>Video Editing & Post-Production: </li>
+                <li>Promotional Videos</li>
+                <li>Event Videos:</li>
+            </ul>
+            <a href="#contact" class="read-more">Contact</a>
+        </div>
+        <div class="service-box">
+            <img src="images/web.png" alt="Service 3">
+            <h3>Service 3</h3>
+            <p>Create a seamless online experience for your audience with my web development services. From custom websites to e-commerce platforms, I build responsive, user-friendly websites that look great on any device.</p>
+            <ul>
+                <li>Custom Website Development:</li>
+                <li>E-Commerce Solutions: </li>
+                <li>Website Maintenance & Updates:</li>
+            </ul>
+            <a href="#contact" class="read-more">Contact</a>
+        </div>
+    </div>
+
+
+<section class="contact-form animate-on-scroll" id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xkgnarzo" method="post">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Backup Email</h4>
+            <p>Email: simplyshweta00@gmail.com</p>
+            
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                
+                
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Me</h4>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/shweta-sharma-6a3396352/"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.youtube.com/@codewithshwetaa"><img src="images/youtube.png" alt="youtube"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Shweta Sharma. All rights reserved.</p>
+    </div>
+</footer>
+<script>
+    function openTab(tabName) {
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        for (let tabLink of tabLinks) {
+            tabLink.classList.remove("active-link");
+        }
+
+        for (let tabContent of tabContents) {
+            tabContent.classList.remove("active-tab");
+        }
+
+        document.getElementById(tabName).classList.add("active-tab");
+        event.currentTarget.classList.add("active-link");
+    }
+    
+    document.addEventListener("DOMContentLoaded", function () {
+        const menuIcon = document.getElementById("menu-icon");
+        const navbar = document.querySelector(".navbar");
+
+        menuIcon.addEventListener("click", function () {
+            navbar.style.display = navbar.style.display === "block" ? "none" : "block";
+        });
+
+        // Close the menu when a link is clicked
+        document.querySelectorAll(".navbar a").forEach(link => {
+            link.addEventListener("click", function () {
+                navbar.style.display = "none";
+            });
+        });
+    });
+    $(document) .on('click','.project-filter li',function() {
+    $(this),addclass('project-filter-active').sonlings().removeclass('project-filter-active')
+});
+
+
+
+
+
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.project-filter li').on('click', function () {
+            $(this).addClass('project-filter-active').siblings().removeClass('project-filter-active');
+        });
+    });
+    $(document).ready(function () {
+    $('.list').click(function () {
+        const value = $(this).attr('data-filter');
+        
+        if (value == "all") {
+            $('.project-box').show(1000); // Show all elements
+        } else {
+            $('.project-box').hide(1000); // Hide all first
+            $('.project-box').filter('.' + value).show(1000); // Show only filtered elements
+        }
+    });
+});
+
+
+        $(document).ready(function () {
+            $('#menu-icon').click(function () {
+                $('.navbar').toggleClass('active');
+            });
+
+            $('.navbar a').click(function () {
+                if ($(window).width() <= 768) { // Only close menu in mobile view
+                    $('.navbar').removeClass('active');
+                }
+            });
+
+            $(window).resize(function () {
+                if ($(window).width() > 768) {
+                    $('.navbar').removeAttr('style'); // Keep navbar visible in desktop
+                }
+            });
+        });
+</script>
+
+</body>
+</html>
