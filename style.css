@@ -415,18 +415,19 @@ section {
 }
 
 
-#project{
+.project-heading {
+    padding: 60px 10%;
+    background-color: #fff;
+    text-align: center;
+}
+.project{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 50px 0px;
 }
-.project-heading{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-}
+
 .project-heading h3{
     font-size: 2.7rem;
     font-weight: 600;
