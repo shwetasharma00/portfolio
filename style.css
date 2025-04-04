@@ -472,9 +472,8 @@ section {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(3, 200px); /* 3 images per row */
-    grid-gap: 20px; /* Space between images */
-    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
 }
 
 .project-box {
