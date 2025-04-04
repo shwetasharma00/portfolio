@@ -415,12 +415,13 @@ section {
 }
 
 
-.project-heading {
+
+   .project-heading {
     padding: 60px 10%;
     background-color: #fff;
     text-align: center;
-display: flex;
-justify-content: center;
+    margin: 0 auto;
+
 
 }
 .project{
